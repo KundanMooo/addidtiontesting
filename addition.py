@@ -11,6 +11,7 @@ def add_numbers():
     num1 = float(request.form['num1'])
     num2 = float(request.form['num2'])
     result = num1 + num2
+    #running
     return render_template('index.html', result=result)
 
 if __name__ == '__main__':
